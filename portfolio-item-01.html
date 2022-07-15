@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PhillyDev Portfolio Website</title>
+        <link rel="stylesheet" 
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" 
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+            integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://kit.fontawesome.com/eff822dc2c.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,500;0,700;1,300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/phillylogo.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">Work</a></li>
+                </ul>
+            </nav>
+        </header>
+       
+       
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Password<strong>Regurgitator</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">A Secure Password Generator</p>
+            <img src="img/portfolio-01.jpg" alt="" class="intro__img">
+        </section>
+
+        <div class="portfolio-item-individual">
+            <p>With this project, it truly marked a turning point early into my education. It was then where I begun to fully grasp and appreciate front-end development and especially JavaScript.</p>
+            <img src="img/portfolio-details-01.jpg" alt="The Password Regurgitator">
+            <p>This application is simply a secure password generator, one that could me implemented into many other sorts of applications. 
+                It starts with a series of user prompts, made to guide users to creating a specific password unique to them based on certain parameters to ensure security.
+            </p>
+            <p>This project was made in Visual Studio Code with HTML, CSS and JavaScript.</p>
+            <p><a href="https://phlipadelphia.github.io/PasswordRegurgitator-/"><i class="fa-brands fa-github"> Check It Out Here !</i></a></p>
+        </div>
+       
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:phillip.t.mock@gmail.com" class="footer-link">hello@philly.dev</a>
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link"
+                    href="https:://linkedin.com"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link"
+                    href="https:://github.com"><i class="fa-brands fa-github"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link"
+                        href="https:://twitter.com"><i class="fa-brands fa-twitter"></i></a></li>
+                </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+    </body>
+
+</html>
