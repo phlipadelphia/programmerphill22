@@ -285,7 +285,7 @@ header {
 }
 
 .my-services {
-    background-color: var(--clr-dark);
+    background-color: #444444;
     background-image: url(../img/codelaptop.jpg);
     background-size: cover;
     background-blend-mode: multiply;
