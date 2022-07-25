@@ -216,7 +216,7 @@ header {
     height: 3px;
     border-radius: 1em;
     display: block;
-    position: relative;
+    position: fixed;
 }
 
 .hamburger,
