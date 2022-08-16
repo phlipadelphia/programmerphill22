@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PhillyDev Portfolio Website</title>
+        <link rel="stylesheet" 
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" 
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+            integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://kit.fontawesome.com/eff822dc2c.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,500;0,700;1,300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/phillylogo.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="index.html#certifications" class="nav__link">Certifications</a></li>
+                </ul>
+            </nav>
+        </header>
+       
+       
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Flick Me<strong>A Winner!</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Movie Night | Pick-A-Flick</p>
+            <img src="img/portfolio-08.jpg" alt="" class="intro__img">
+        </section>
+
+        <div class="portfolio-item-individual">
+            <p>This is a personal project, one early in development at that. But I got enough to show off a good starting point.</p>
+            <img src="img/portfolio-details-08.jpg" alt="Flick Me A Winner">
+            <p>If you've been here long enough, you'll notice I have background education in media and broadcast production. It may not suprise you to learn that I'm something of a film buff.   
+            </p>
+            <p>
+              As such, I decided to test and flex my level of skills and knowledge and create a simple application that prompts user input in the form of movie titles. After the user is satisfied with their list of options, a simple shuffle button will pick one of the bunch and proudly display your movie of choice!!   
+            </p>
+            <p>This project is currently being made in Visual Studio Code with HTML, CSS, JavaScript, Bootstrap and JQuery.</p>
+            <br>
+            <p><a href="https://github.com/phlipadelphia/FlickMeAWinner"><i class="fa-brands fa-github"> Check Out The Git Repo Here ! </i></a></p>
+        </div>
+       
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="phillip.t.mock@gmail.com" class="footer-link"> phillip.t.mock@gmail.com</a>
+            <br>
+            <a href="img/phillprogramresume2022.pdf" class="footer-link">resume.pdf</a>
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link"
+                    href="https://www.linkedin.com/in/phillip-mock-6b33663b/"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link"
+                    href="https://github.com/phlipadelphia"><i class="fa-brands fa-github"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link"
+                    href="https://gitlab.com/phillygitsit"><i class="fa-brands fa-square-gitlab"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link"
+                    href="https://www.instagram.com/thecinephill/"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+            <p> < / goodbye > </p>
+        </footer>
+
+        <script src="js/index.js"></script>
+    </body>
+
+</html>
