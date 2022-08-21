@@ -523,3 +523,15 @@ header {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+/* Skill Sphere */
+
+.tagcloud {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-h3);
+    font-weight: var(--fw-bold);
+    margin-left: 30%;
+}
+.tagcloud--item:hover {
+    color: var(--clr--accent);
+}
