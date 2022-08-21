@@ -530,8 +530,16 @@ header {
     font-family: var(--ff-primary);
     font-size: var(--fs-h3);
     font-weight: var(--fw-reg);
-    margin-left: 35%;
+    margin: 0 auto;
 }
 .tagcloud--item:hover {
     color: var(--clr--accent);
+}
+
+.content {
+    margin:  0 auto;
+
+    width: 80%;
+    height: 50%;
+    align-content: center;
 }
