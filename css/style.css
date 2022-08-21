@@ -529,8 +529,8 @@ header {
 .tagcloud {
     font-family: var(--ff-primary);
     font-size: var(--fs-h3);
-    font-weight: var(--fw-bold);
-    margin-left: 30%;
+    font-weight: var(--fw-reg);
+    margin-left: 35%;
 }
 .tagcloud--item:hover {
     color: var(--clr--accent);
