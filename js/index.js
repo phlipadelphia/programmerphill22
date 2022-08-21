@@ -35,7 +35,7 @@ const myTags = [
     'DevOps', 'Insomnia', 'VS Code',
     'Postman', 'Heroku', 'ApolloGraphql',
     'Adobe CS', 'MS Office', 'MongoDB',
-    'Mongoose',
+    'Mongoose', 'AWS',
 ];
 
 var tagCloud = TagCloud('.content', myTags, {
