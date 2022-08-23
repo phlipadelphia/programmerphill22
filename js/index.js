@@ -29,13 +29,13 @@ function showSlides() {
 const myTags = [
   'JavaScript', 'CSS3', 'HTML5',
     'Angular', 'TypeScript', 'React',
-    'Sass', 'Java', 'git',
+    'Sass', 'Java', 'Git',
     'NPM', 'Node', 'SQL',
     'Express', 'MySQL', 'jQuery',
     'DevOps', 'Insomnia', 'VS Code',
     'Postman', 'Heroku', 'ApolloGraphql',
     'Adobe CS', 'MS Office', 'MongoDB',
-    'Mongoose', 'AWS',
+    'Mongoose', 'AWS', 'APIs',
 ];
 
 var tagCloud = TagCloud('.content', myTags, {
