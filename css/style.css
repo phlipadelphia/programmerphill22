@@ -35,9 +35,6 @@
 }
 
 /* General Styles */
-html, body {
-    overflow-y: hidden;
-}
 
 html {
     scroll-behavior: smooth;
