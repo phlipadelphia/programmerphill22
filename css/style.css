@@ -35,6 +35,9 @@
 }
 
 /* General Styles */
+html, body {
+    overflow-x: hidden;
+}
 
 html {
     scroll-behavior: smooth;
@@ -47,7 +50,7 @@ body {
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
     line-height: 1.6;
-    overflow: hidden;
+    position: relative;
 }
 
 section {
