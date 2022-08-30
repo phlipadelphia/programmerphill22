@@ -27,15 +27,13 @@ function showSlides() {
 }
 
 const myTags = [
-  'JavaScript', 'CSS3', 'HTML5',
+    'JavaScript', 'CSS3', 'HTML5',
     'Angular', 'TypeScript', 'React',
-    'Sass', 'Java', 'Git',
-    'NPM', 'Node', 'SQL',
-    'Express', 'MySQL', 'jQuery',
-    'DevOps', 'Insomnia', 'VS Code',
-    'Postman', 'Heroku', 'ApolloGraphql',
-    'Adobe CS', 'MS Office', 'MongoDB',
-    'Mongoose', 'AWS', 'APIs',
+    'Sass', 'Java', 'NPM', 
+    'Node', 'SQL', 'Python3', 
+    'MySQL', 'jQuery', 'APIs', 
+    'Insomnia', 'Postman', 'ApolloGraphql',
+    'Adobe CS', 'MongoDB', 'AWS',
 ];
 
 var tagCloud = TagCloud('.content', myTags, {
